@@ -1,0 +1,39 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+*.tmp
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django secret key
+*.env
+*.venv
+
+# SQLite database
+db.sqlite3
+
+# Migrations
+**/migrations/
+
+
+# Node.js modules
+node_modules/
+
+
+# Frontend build/dist files
+build/
+dist/
+
+
+# Editor/IDE configurations
+.vscode/
+.idea/
+*.sublime-workspace
+
+
